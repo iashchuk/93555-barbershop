@@ -102,6 +102,29 @@
       <a class="button contacts__button contacts__button--feedback" href="contacts.html">Обратная связь</a>
     </section>
 
+        <section class="appointment">
+          <h2 class="appointment__title">Записаться</h2>
+          <p class="appointment__info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+          <form class="appointment__form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="appointment__item">
+              <label class="appointment__label" for="appointment__date">Дата</label>
+              <input class="appointment__form" id="appointment__date" type="text" name="date" value="" placeholder="08.10.2017">
+            </p>
+            <p class="appointment__item">
+              <label class="appointment__label" for="appointment__time">Время</label>
+              <input class="appointment__form" id="appointment__time" type="text" name="time" value="" placeholder="10:00">
+            </p>
+            <p class="appointment__item">
+              <label class="appointment__label" for="appointment__name">Ваше имя</label>
+              <input class="appointment__form" id="appointment__name" type="text" name="name" value="" placeholder="Борода">
+            </p>
+            <p class="appointment__item">
+              <label class="appointment__label" for="appointment__phone">Телефон</label>
+              <input class="appointment__form" id="appointment__phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
+            </p>
+            <button class="button appointment__button" type="submit">Отправить</button>
+          </form>
+        </section>
   </main>
 </body>
 
