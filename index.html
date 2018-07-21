@@ -153,6 +153,39 @@
       <a class="button copyright__button" href="https://htmlacademy.ru">HTML Academy</a>
     </p>
   </footer>
+
+  <section class="modal modal-login">
+    <h2 class="modal-login__title">Личный кабинет</h2>
+    <p class="modal-login__text">Введите свой логин и пароль.</p>
+    <form class="modal-login__form login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p class="login-form__login">
+        <label class="visually-hidden login-form__label" for="user-login">Логин</label>
+        <input class="login-form__input login-form__input--user" id="user-login" type="text" name="login" placeholder="Логин">
+      </p>
+      <p class="login-form__password">
+        <label class="visually-hidden login-form__label" for="user-password">Пароль</label>
+        <input class="login-form__input login-form__input--password" id="user-password" type="password" name="password" placeholder="Пароль">
+      </p>
+      <p class="login-form__info">
+        <label class="login-form__checkbox">
+          <input class="visually-hidden login-form__input" type="checkbox" name="remember">
+          <span class="login-from__indicator"></span>
+          Запомните меня
+        </label>
+        <a class="login-foem__restore" href="#">Я забыл пароль!</a>
+      </p>
+      <button class="button login-form__button" type="submit">Войти</button>
+    </form>
+    <button class="modal__close login-form__close" type="button">Закрыть</button>
+  </section>
+
+  <section class="modal modal-map">
+    <h2 class="visually-hidden modal-map__title">Как до нас добраться</h2>
+    <p>
+      <img class="modal-map__image" src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+    </p>
+    <button class="modal__close modal-map__close" type="button">Закрыть</button>
+  </section>
 </body>
 
 </html>
