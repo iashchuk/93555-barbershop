@@ -36,8 +36,76 @@
       </ul>
     </nav>
   </header>
-  <main>
 
+  <main class="page__main container">
+    <h1 class="page__title">Cредства для ухода</h1>
+
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="index.html">Главная</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="catalog.html">Магазин</a>
+      </li>
+      <li class="breadcrumbs__item breadcrumbs__item--current">Средства для ухода</li>
+    </ul>
+
+    <section class="filters">
+      <h2 class="visually-hidden filters__title">Фильтр товаров</h2>
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset class="filter__group">
+          <legend class="filter__title">Производители:</legend>
+          <ul class="filter__list">
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california"
+                checked>
+              <label class="filter__label" for="filter-baxter-of-california">Baxter of California</label>
+            </li>
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--checkbox" type="checkbox" name="mr-natty" id="filter-mr-natty">
+              <label class="filter__label" for="filter-mr-natty">Mr Natty</label>
+            </li>
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--checkbox" type="checkbox" name="suavecito" id="filter-suavecito"
+                checked>
+              <label class="filter__label" for="filter-suavecito">Suavecito</label>
+            </li>
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--checkbox" type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+              <label class="filter__label" for="filter-malin-goetz">Malin+Goetz</label>
+            </li>
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--checkbox" type="checkbox" name="murrays" id="filter-murrays">
+              <label class="filter__label" for="filter-murrays">Murray’s</label>
+            </li>
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--checkbox" type="checkbox" name="american-crew" id="filter-american-crew"
+                checked>
+              <label class="filter__label" for="filter-american-crew">American Crew</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="filter__group">
+          <legend class="filter__title">Группы товаров:</legend>
+          <ul class="filter__list">
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--radio" type="radio" name="product-group" value="shaving" id="filter-shave">
+              <label class="filter__label" for="filter-shave">Бритвенные принадлежности</label>
+            </li>
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--radio" type="radio" name="product-group" value="hair-care" id="filter-care"
+                checked>
+              <label class="filter__label" for="filter-care">Средства для ухода</label>
+            </li>
+            <li class="filter__option">
+              <input class="visually-hidden filter__input filter__input--radio" type="radio" name="product-group" value="accessories" id="filter-accessories">
+              <label class="filter__label" for="filter-accessories">Аксессуары</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="button filter__button" type="submit">Показать</button>
+      </form>
+    </section>
 
   </main>
   <footer class="page__footer footer-contacts">
@@ -73,15 +141,15 @@
     <p class="modal-login__text">Введите свой логин и пароль.</p>
     <form class="modal-login__form login-form" action="https://echo.htmlacademy.ru" method="post">
       <p class="login-form__login">
-        <label class="visually-hidden login-form__label" for="user-login">Логин</label>
+        <label class="filter__label" class="visually-hidden login-form__label" for="user-login">Логин</label>
         <input class="login-form__input login-form__input--user" id="user-login" type="text" name="login" placeholder="Логин">
       </p>
       <p class="login-form__password">
-        <label class="visually-hidden login-form__label" for="user-password">Пароль</label>
+        <label class="filter__label" class="visually-hidden login-form__label" for="user-password">Пароль</label>
         <input class="login-form__input login-form__input--password" id="user-password" type="password" name="password" placeholder="Пароль">
       </p>
       <p class="login-form__info">
-        <label class="login-form__checkbox">
+        <label class="filter__label" class="login-form__checkbox">
           <input class="visually-hidden login-form__input" type="checkbox" name="remember">
           <span class="login-from__indicator"></span>
           Запомните меня
