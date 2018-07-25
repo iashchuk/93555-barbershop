@@ -1,0 +1,32 @@
+{
+  "name": "93555-barbershop",
+  "version": "1.0.0",
+  "description": "* Студент: [Vitalii Iashchuk](https://up.htmlacademy.ru/htmlcss/20/user/93555).",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp style && gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iashchuk/93555-barbershop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iashchuk/93555-barbershop/issues"
+  },
+  "homepage": "https://github.com/iashchuk/93555-barbershop#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.0.1",
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
