@@ -109,6 +109,9 @@ input[type="radio"].visually-hidden {
   padding: 0;
   list-style: none; }
 
+.user--inner {
+  margin-left: auto; }
+
 .menu__link:hover,
 .menu__link:focus {
   background-color: #242424; }
@@ -139,6 +142,10 @@ input[type="radio"].visually-hidden {
 
 .page__header {
   margin-bottom: 75px; }
+
+.page__header--inner {
+  margin-bottom: 50px;
+  background-color: #000000; }
 
 .page__title {
   font-size: 30px;

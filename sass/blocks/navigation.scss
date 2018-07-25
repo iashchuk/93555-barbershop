@@ -20,6 +20,7 @@
 .navigation--inner {
   align-items: flex-start;
   flex-direction: row;
+
 }
 
 .navigation__logo {
@@ -62,6 +63,10 @@
   list-style: none;
   // background: rgba(234, 255, 45, 0.2);
   // box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+}
+
+.user--inner {
+  margin-left: auto;
 }
 
 .menu__link:hover,
