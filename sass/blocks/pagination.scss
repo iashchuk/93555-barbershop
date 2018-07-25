@@ -1,0 +1,26 @@
+.pagination {
+  list-style: none;
+}
+
+.pagination__link {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.pagination__link:hover,
+.pagination__link:focus,
+.pagination__link:active {
+  background-color: #663d15;
+}
+
+.pagination__link--current {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.pagination__link--current:hover,
+.pagination__link--current:focus,
+.pagination__link--current:active {
+  color: #000000;
+  background-color: #ffffff;
+}

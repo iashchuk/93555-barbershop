@@ -1,0 +1,39 @@
+.footer {
+  color: #ffffff;
+  background-color: #212121;
+  background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts__link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-contacts__link:hover,
+.footer-contacts__link:focus {
+  text-decoration: none;
+}
+
+.social {
+  text-align: center;
+}
+
+.social__list {
+  list-style: none;
+}
+
+.social__link {
+  color: #ffffff;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright__button:hover,
+.copyright__button:focus {
+  color: #000000;
+  background-color: #ffffff;
+}

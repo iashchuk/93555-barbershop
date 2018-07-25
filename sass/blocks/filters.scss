@@ -1,0 +1,23 @@
+.filter__group {
+  border: none;
+}
+
+.filter__title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filter__list {
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter__input:hover+.filter__label,
+.filter__input:focus+.filter__label {
+  color: #663d15;
+}
+
+.filter__input:disabled+.filter__label {
+  color: #000000;
+  opacity: 0.5;
+}

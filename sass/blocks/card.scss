@@ -1,0 +1,33 @@
+.сard {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.сard:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__text-link {
+  color: #000000;
+}
+
+.card__title {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card__category {
+  text-transform: none;
+}
+
+.card__price {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+.card__button {
+  line-height: 20px;
+  color: #ffffff;
+}

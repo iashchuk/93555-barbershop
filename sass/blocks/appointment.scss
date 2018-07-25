@@ -1,0 +1,9 @@
+.appointment__input {
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment__input:focus {
+  border-color: #663d15;
+}

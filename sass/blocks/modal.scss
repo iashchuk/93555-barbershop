@@ -1,0 +1,39 @@
+.modal {
+  color: #000000;
+  background-color: #f8f3f0;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal-login__title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form__input {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+
+.login-form__input:focus {
+  border-color: #663d15;
+}
+
+.login-form__checkbox:hover,
+.login-form__checkbox:focus {
+  color: #663d15;
+}
+
+.login-form__restore {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.login-form__restore:hover,
+.login-form__restore:focus {
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs__link {
+  color: #000000;
+}
+
+.breadcrumbs__link:hover,
+.breadcrumbs__link:focus {
+  text-decoration: underline;
+}
+
+.breadcrumbs__item--current {
+  color: #aba9a7;
+}

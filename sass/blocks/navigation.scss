@@ -1,0 +1,29 @@
+.navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.navigation__menu,
+.navigation__user {
+  list-style: none;
+}
+
+.menu__link {
+  color: #ffffff;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  background-color: #242424;
+}
+
+.user__link {
+  color: #ffffff;
+}
+
+.user__link:hover,
+.user__link:focus {
+  background-color: #242424;
+}
