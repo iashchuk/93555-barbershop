@@ -65,8 +65,7 @@ input[type="radio"].visually-hidden {
   background-color: transparent;
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
-  background-color: #000000; }
+  color: #ffffff; }
 
 .navigation__wrapper {
   width: 100%;
@@ -152,6 +151,7 @@ input[type="radio"].visually-hidden {
   line-height: 42px; }
 
 .page__columns {
+  padding: 50px 80px;
   color: #000000;
   background-color: #f8f5f2;
   background-image: url("img/pattern-light.jpg");
@@ -165,15 +165,41 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
   background-repeat: repeat; }
 
+.features {
+  margin-bottom: 80px; }
+
 .features__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   list-style: none; }
 
-.feature__item {
+.features__item {
+  width: 300px;
   text-align: center; }
 
-.feature__tagline {
+.features__tagline {
+  position: relative;
+  margin: 0;
+  margin-bottom: 60px;
   font-size: 30px;
   line-height: 42px; }
+
+.features__tagline::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  background-color: #ffffff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.features__text {
+  margin: 0 10px; }
 
 .news__title {
   font-size: 30px;
