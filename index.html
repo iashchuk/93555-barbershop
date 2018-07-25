@@ -62,35 +62,37 @@
         </li>
       </ul>
     </section>
+    <div class="index-columns">
+      <section class="news">
+        <h2 class="news__title">Новости</h2>
+        <ul class="news__list">
+          <li class="news__item">
+            <p class="news__text">Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+            <time class="news__time" datetime="2016-01-11">11 января</time>
+          </li>
+          <li class="news__item">
+            <p class="news__text">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные
+              ряды
+            </p>
+            <time class="news__time" datetime="2016-01-18">18 января</time>
+          </li>
+        </ul>
+        <a class="news__link button" href="news.html">Все новости</a>
+      </section>
 
-    <section class="news">
-      <h2 class="news__title">Новости</h2>
-      <ul class="news__list">
-        <li class="news__item">
-          <p class="news__text">Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-          <time class="news__time" datetime="2016-01-11">11 января</time>
-        </li>
-        <li class="news__item">
-          <p class="news__text">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные
-            ряды
-          </p>
-          <time class="news__time" datetime="2016-01-18">18 января</time>
-        </li>
-      </ul>
-      <a class="news__link button" href="news.html">Все новости</a>
-    </section>
+      <section class="gallery">
+        <h2 class="gallery__title">Фотогалерея</h2>
+        <figure class="gallery__content">
+          <a class="gallery__link" href="#">
+            <img class="gallery__image" src="img/studio.png" width="286" height="164" alt="Интерьер">
+          </a>
+        </figure>
+        <button class="button gallery__button gallery__button--back">Назад</button>
+        <button class="button gallery__button gallery__button--next">Вперед</button>
+      </section>
+    </div>
 
-    <section class="gallery">
-      <h2 class="gallery__title">Фотогалерея</h2>
-      <figure class="gallery__content">
-        <a class="gallery__link" href="#">
-          <img class="gallery__image" src="img/studio.jpg" width="286" height="164" alt="Интерьер">
-        </a>
-      </figure>
-      <button class="button gallery__button gallery__button--back">Назад</button>
-      <button class="button gallery__button gallery__button--next">Вперед</button>
-    </section>
-
+    <div class="index-columns">
     <section class="contacts">
       <h2 class="contacts__title">Контактная информация</h2>
       <p class="contacts__address">
@@ -113,23 +115,24 @@
       <form class="appointment__form" action="https://echo.htmlacademy.ru" method="post">
         <p class="appointment__item">
           <label class="appointment__label" for="appointment__date">Дата</label>
-          <input class="appointment__form" id="appointment__date" type="text" name="date" value="" placeholder="08.10.2017">
+          <input class="appointment__input" id="appointment__date" type="text" name="date" value="" placeholder="08.10.2017">
         </p>
         <p class="appointment__item">
           <label class="appointment__label" for="appointment__time">Время</label>
-          <input class="appointment__form" id="appointment__time" type="text" name="time" value="" placeholder="10:00">
+          <input class="appointment__input" id="appointment__time" type="text" name="time" value="" placeholder="10:00">
         </p>
         <p class="appointment__item">
           <label class="appointment__label" for="appointment__name">Ваше имя</label>
-          <input class="appointment__form" id="appointment__name" type="text" name="name" value="" placeholder="Борода">
+          <input class="appointment__input" id="appointment__name" type="text" name="name" value="" placeholder="Борода">
         </p>
         <p class="appointment__item">
           <label class="appointment__label" for="appointment__phone">Телефон</label>
-          <input class="appointment__form" id="appointment__phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
+          <input class="appointment__input" id="appointment__phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
         </p>
         <button class="button appointment__button" type="submit">Отправить</button>
       </form>
     </section>
+    </div>
   </main>
   <footer class="page__footer footer">
     <p class="footer__contacts footer-contacts">
