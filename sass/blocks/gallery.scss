@@ -1,9 +1,45 @@
+.gallery {
+  width: 300px;
+}
+
+.gallery__wrapper {
+
+  position: relative;
+  height: 260px;
+
+  // background: rgba(255, 45, 82, 0.2);
+  // box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
 .gallery__title {
   font-size: 30px;
   line-height: 42px;
 }
 
 .gallery__content {
+  height: 164px;
+  margin: 0;
   background-color: #cccccc;
   border: 7px solid #ffffff;
+}
+
+.gallery__image {
+  width: 286px;
+  height: 164px;
+}
+
+.gallery__button {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  width: 140px;
+  margin: 0;
+}
+
+.gallery__button--back {
+  left: 0;
+}
+
+.gallery__button--next {
+  right: 0;
 }
