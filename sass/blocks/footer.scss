@@ -1,4 +1,6 @@
 .footer {
+  padding: 60px 0;
+  margin-top: 65px;
   color: #ffffff;
   background-color: #212121;
   background-image: url("../img/pattern-dark.jpg");
@@ -6,21 +8,39 @@
   background-repeat: repeat;
 }
 
-.footer-contacts__link {
+.footer__contacts {
+  width: 320px;
+  margin: 0;
+  margin-right: 80px;
+}
+
+.footer__link {
   color: #ffffff;
   text-decoration: underline;
 }
 
-.footer-contacts__link:hover,
-.footer-contacts__link:focus {
+.footer__contacts__link:hover,
+.footer__contacts__link:focus {
   text-decoration: none;
 }
 
 .social {
+  width: 145px;
   text-align: center;
 }
 
+.social__tagline {
+  display: block;
+  margin-bottom: 15px;
+}
+
 .social__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
   list-style: none;
 }
 
@@ -28,8 +48,40 @@
   color: #ffffff;
 }
 
+.social__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  background-color: #000000;
+}
+
+.social__button:hover,
+.social__button:focus {
+  background-color: #ffffff;
+}
+
+.social__button:hover .social__path,
+.social__button:focus .social__path {
+  fill: #000000;
+}
+
 .copyright {
+  width: 150px;
+  margin: 0;
+  margin-left: auto;
   text-align: center;
+}
+
+.copyright__text {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.copyright__button {
+  display: block;
+  margin-right: 0;
 }
 
 .copyright__button:hover,
