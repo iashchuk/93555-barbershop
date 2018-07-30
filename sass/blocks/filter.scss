@@ -1,0 +1,98 @@
+.filter {
+  width: 180px;
+}
+
+.filter__group {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  border: none;
+
+  &:first-child {
+    margin-bottom: 35px;
+  }
+}
+
+.filter__title {
+  margin-bottom: 26px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filter__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter__input:hover + .filter__label,
+.filter__input:focus + .filter__label {
+  color: #663d15;
+}
+
+.filter__input:disabled + .filter__label {
+  color: #000000;
+  opacity: 0.5;
+}
+
+
+.filter__option {
+  margin-bottom: 19px;
+  padding-left: 45px;
+  // background: rgba(0, 128, 0, 0.2);
+  // box-shadow: 0 0 0 3px green;
+}
+
+.filter__label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter__input--checkbox + label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000000;
+}
+
+.filter__input--checkbox:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -38px;
+  width: 12px;
+  height: 12px;
+  background-image: url("../img/cross.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.filter__input--radio+label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: -1px;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+
+
+.filter__input--radio:checked+label::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -36px;
+  width: 8px;
+  height: 8px;
+  background-color: #000000;
+  border-radius: 50%;
+}
