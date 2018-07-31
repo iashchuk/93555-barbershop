@@ -423,7 +423,8 @@ input[type="radio"].visually-hidden {
   left: 50%;
   width: 300px;
   margin-left: -230px;
-  padding: 50px 80px; }
+  padding: 50px 80px;
+  display: none; }
 
 .modal__close {
   position: absolute;
@@ -545,6 +546,19 @@ input[type="radio"].visually-hidden {
 .login-form__restore:hover,
 .login-form__restore:focus {
   text-decoration: none; }
+
+.modal-map {
+  top: 50%;
+  left: 50%;
+  width: 766px;
+  height: 561px;
+  margin-top: -280px;
+  margin-left: -390px;
+  border: 7px solid white;
+  display: none; }
+
+.modal-map__photo {
+  margin: 0; }
 
 .breadcrumbs {
   display: flex;
