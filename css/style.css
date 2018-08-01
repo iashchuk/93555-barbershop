@@ -426,6 +426,9 @@ input[type="radio"].visually-hidden {
   padding: 50px 80px;
   display: none; }
 
+.modal-show {
+  display: block; }
+
 .modal__close {
   position: absolute;
   top: 0;
