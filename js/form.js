@@ -1,6 +1,3 @@
-"use strict";
-
-(function() {
   var link = document.querySelector(".user__link");
 
   var popup = document.querySelector(".modal-login");
@@ -34,12 +31,15 @@
   close.addEventListener("click", function(evt) {
     evt.preventDefault();
     popup.classList.remove("modal-show");
+    popup.classList.remove("modal-error");
   });
 
   form.addEventListener("submit", function(evt) {
     if (!login.value || !password.value) {
       evt.preventDefault();
-      alert("Нужно ввести логин и пароль");
+      popup.classList.remove("modal-error");
+      popup.offsetWidth = popup.offsetWidth;
+      popup.classList.add("modal-error");
     } else {
       if (isStorageSupport) {
         localStorage.setItem("login", login.value);
@@ -52,8 +52,7 @@
       evt.preventDefault();
       if (popup.classList.contains("modal-show")) {
         popup.classList.remove("modal-show");
+        popup.classList.remove("modal-error");
       }
     }
   });
-
-})();
