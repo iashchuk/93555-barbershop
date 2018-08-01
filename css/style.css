@@ -491,11 +491,6 @@ input[type="radio"].visually-hidden {
   padding: 50px 80px;
   display: none; }
 
-.modal-show {
-  display: block;
-  -webkit-animation: bounce 0.6s;
-          animation: bounce 0.6s; }
-
 .modal-error {
   -webkit-animation: shake 0.6s;
           animation: shake 0.6s; }
@@ -631,8 +626,22 @@ input[type="radio"].visually-hidden {
   border: 7px solid white;
   display: none; }
 
+.modal-show {
+  display: block;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s; }
+
 .modal-map__photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
   margin: 0; }
+
+.modal-map iframe {
+  position: relative;
+  z-index: 2;
+  border: none; }
 
 .breadcrumbs {
   display: flex;

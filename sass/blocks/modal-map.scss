@@ -9,6 +9,21 @@
   display: none;
 }
 
+.modal-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
 .modal-map__photo {
-  margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+}
+
+.modal-map iframe {
+  position: relative;
+  z-index: 2;
+  border: none;
 }
